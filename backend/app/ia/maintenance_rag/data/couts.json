@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "currency": "TND",
+    "country": "Tunisie",
+    "price_basis": "Main d'œuvre, petites pièces courantes et taxes incluses (TVA), déplacement compris, tarifs urbains Tunisie, estimation d'octobre 2026.",
+    "method": "estimation",
+    "sources": [],
+    "disclaimer": "Estimation indicative avant devis d'un professionnel."
+  },
+  "fiches": {
+    "ELEC-01": {
+      "cout_min": 40,
+      "cout_max": 150,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1.5,
+      "technicien": "Électricien",
+      "inclus": "Main d'œuvre + prise ou petit appareillage de remplacement",
+      "hypotheses": "Connexion desserrée ou prise usée, câble sain, accès facile",
+      "facteurs_de_variation": "Câble noirci à remplacer ou disjoncteur du circuit à changer",
+      "fiabilite": "moyenne"
+    },
+    "ELEC-02": {
+      "cout_min": 60,
+      "cout_max": 250,
+      "duree_min_heures": 1,
+      "duree_max_heures": 2.5,
+      "technicien": "Électricien",
+      "inclus": "Main d'œuvre + test d'isolement + petit disjoncteur divisionnaire",
+      "hypotheses": "Disjoncteur usé ou appareil défectueux identifié, circuit accessible",
+      "facteurs_de_variation": "Tronçon de câble à remplacer ou défaut d'isolement difficile à localiser",
+      "fiabilite": "moyenne"
+    },
+    "ELEC-03": {
+      "cout_min": 40,
+      "cout_max": 180,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 2,
+      "technicien": "Électricien",
+      "inclus": "Main d'œuvre + petit matériel (fusible, domino, boîte de dérivation)",
+      "hypotheses": "Connexion desserrée dans une boîte de dérivation accessible",
+      "facteurs_de_variation": "Recherche longue du défaut, câble encastré à rouvrir",
+      "fiabilite": "moyenne"
+    },
+    "ELEC-04": {
+      "cout_min": 20,
+      "cout_max": 80,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1,
+      "technicien": "Électricien",
+      "inclus": "Main d'œuvre + douille ou interrupteur de remplacement",
+      "hypotheses": "Douille ou interrupteur à changer, réseau stable",
+      "facteurs_de_variation": "Variateur à remplacer ou problème de tension sur toute l'installation",
+      "fiabilite": "moyenne"
+    },
+    "ELEC-05": {
+      "cout_min": 80,
+      "cout_max": 300,
+      "duree_min_heures": 1,
+      "duree_max_heures": 3,
+      "technicien": "Électricien",
+      "inclus": "Main d'œuvre + mise en sécurité + prise et câble court de remplacement",
+      "hypotheses": "Prise arrachée ou fils abîmés sur un seul point, saignée limitée",
+      "facteurs_de_variation": "Câble encastré à remplacer sur une longue portion, reprise du plâtre",
+      "fiabilite": "faible"
+    },
+    "PLOM-01": {
+      "cout_min": 40,
+      "cout_max": 150,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1.5,
+      "technicien": "Plombier",
+      "inclus": "Main d'œuvre + joint de siphon ou flexible",
+      "hypotheses": "Cause la plus fréquente : joint de siphon ou flexible usé, accès facile",
+      "facteurs_de_variation": "Meuble à démonter, robinet d'arrêt à remplacer",
+      "fiabilite": "moyenne"
+    },
+    "PLOM-02": {
+      "cout_min": 40,
+      "cout_max": 140,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1.5,
+      "technicien": "Plombier",
+      "inclus": "Main d'œuvre + mécanisme de chasse ou joint de clapet",
+      "hypotheses": "Mécanisme de chasse standard à remplacer, réservoir accessible",
+      "facteurs_de_variation": "Réservoir encastré ou modèle spécifique difficile à trouver",
+      "fiabilite": "moyenne"
+    },
+    "PLOM-03": {
+      "cout_min": 50,
+      "cout_max": 200,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 2,
+      "technicien": "Plombier",
+      "inclus": "Main d'œuvre + débouchage mécanique d'un point d'eau",
+      "hypotheses": "Bouchon local de cheveux ou graisse, débouchage au furet",
+      "facteurs_de_variation": "Hydrocureur nécessaire ou bouchon dans la colonne collective",
+      "fiabilite": "moyenne"
+    },
+    "PLOM-04": {
+      "cout_min": 150,
+      "cout_max": 600,
+      "duree_min_heures": 2,
+      "duree_max_heures": 5,
+      "technicien": "Plombier",
+      "inclus": "Main d'œuvre en urgence + tronçon de tuyau et raccords",
+      "hypotheses": "Rupture sur un tronçon accessible, remplacement puis remise en eau",
+      "facteurs_de_variation": "Tuyau encastré à ouvrir, majoration d'urgence, assèchement long",
+      "fiabilite": "faible"
+    },
+    "PLOM-05": {
+      "cout_min": 25,
+      "cout_max": 80,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1,
+      "technicien": "Plombier",
+      "inclus": "Main d'œuvre + joint ou cartouche de robinet",
+      "hypotheses": "Joint ou cartouche usé, robinet standard",
+      "facteurs_de_variation": "Robinet à remplacer entièrement si pièce introuvable",
+      "fiabilite": "moyenne"
+    },
+    "CHAU-01": {
+      "cout_min": 40,
+      "cout_max": 200,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 2,
+      "technicien": "Chauffagiste",
+      "inclus": "Main d'œuvre + purge ou robinet thermostatique",
+      "hypotheses": "Air dans le radiateur : simple purge, ou robinet à changer",
+      "facteurs_de_variation": "Désembouage du circuit nécessaire, plusieurs radiateurs concernés",
+      "fiabilite": "faible"
+    },
+    "CHAU-02": {
+      "cout_min": 100,
+      "cout_max": 450,
+      "duree_min_heures": 1,
+      "duree_max_heures": 3,
+      "technicien": "Chauffagiste",
+      "inclus": "Main d'œuvre + diagnostic, remise en pression et petite pièce",
+      "hypotheses": "Petite fuite ou sonde défaillante, pièce disponible localement",
+      "facteurs_de_variation": "Circulateur ou carte électronique à remplacer, pièce à commander",
+      "fiabilite": "faible"
+    },
+    "CHAU-03": {
+      "cout_min": 120,
+      "cout_max": 500,
+      "duree_min_heures": 1,
+      "duree_max_heures": 3,
+      "technicien": "Technicien gaz agréé",
+      "inclus": "Main d'œuvre + détection de fuite, flexible ou raccord, test d'étanchéité",
+      "hypotheses": "Flexible ou raccord de gaz défectueux, remplacement simple",
+      "facteurs_de_variation": "Tuyauterie à reprendre, appareil à remettre en conformité",
+      "fiabilite": "faible"
+    },
+    "CHAU-04": {
+      "cout_min": 120,
+      "cout_max": 400,
+      "duree_min_heures": 1,
+      "duree_max_heures": 2.5,
+      "technicien": "Technicien chauffe-eau",
+      "inclus": "Main d'œuvre + résistance ou thermostat de chauffe-eau",
+      "hypotheses": "Résistance ou thermostat défaillant, ballon accessible",
+      "facteurs_de_variation": "Ballon très entartré, vidange nécessaire, groupe de sécurité à changer",
+      "fiabilite": "moyenne"
+    },
+    "SERR-01": {
+      "cout_min": 80,
+      "cout_max": 300,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1.5,
+      "technicien": "Serrurier",
+      "inclus": "Main d'œuvre + extraction de la clé + cylindre standard",
+      "hypotheses": "Clé cassée, cylindre standard à remplacer, porte accessible",
+      "facteurs_de_variation": "Cylindre haute sécurité ou porte blindée, intervention de nuit",
+      "fiabilite": "moyenne"
+    },
+    "SERR-02": {
+      "cout_min": 30,
+      "cout_max": 120,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 1.5,
+      "technicien": "Menuisier ou serrurier",
+      "inclus": "Main d'œuvre + réglage des gonds et de la gâche",
+      "hypotheses": "Gonds affaissés ou gâche désalignée, réglage simple",
+      "facteurs_de_variation": "Porte à raboter, gonds à remplacer, bois très gonflé",
+      "fiabilite": "moyenne"
+    },
+    "SERR-03": {
+      "cout_min": 150,
+      "cout_max": 500,
+      "duree_min_heures": 1,
+      "duree_max_heures": 3,
+      "technicien": "Serrurier",
+      "inclus": "Main d'œuvre + nouveau cylindre et petit renforcement",
+      "hypotheses": "Cylindre arraché à remplacer, cadre peu abîmé",
+      "facteurs_de_variation": "Cadre ou porte à réparer, serrure multipoints à poser",
+      "fiabilite": "faible"
+    },
+    "HUMI-01": {
+      "cout_min": 100,
+      "cout_max": 500,
+      "duree_min_heures": 2,
+      "duree_max_heures": 6,
+      "technicien": "Technicien humidité",
+      "inclus": "Main d'œuvre + traitement antifongique et contrôle de la ventilation",
+      "hypotheses": "Condensation avec moisissures localisées, aération à rétablir",
+      "facteurs_de_variation": "Extracteur à installer, surface étendue, remise en peinture",
+      "fiabilite": "faible"
+    },
+    "HUMI-02": {
+      "cout_min": 200,
+      "cout_max": 1000,
+      "duree_min_heures": 3,
+      "duree_max_heures": 8,
+      "technicien": "Technicien étanchéité et plomberie",
+      "inclus": "Main d'œuvre + recherche de fuite, réparation, séchage et peinture",
+      "hypotheses": "Fuite ou joint localisé, réparation simple puis retouche de peinture",
+      "facteurs_de_variation": "Étanchéité de toiture ou terrasse à refaire, séchage long, grande surface",
+      "fiabilite": "faible"
+    },
+    "HUMI-03": {
+      "cout_min": 600,
+      "cout_max": 3000,
+      "duree_min_heures": 8,
+      "duree_max_heures": 24,
+      "technicien": "Spécialiste humidité",
+      "inclus": "Main d'œuvre + diagnostic du mur, traitement et enduit sur un mur",
+      "hypotheses": "Remontées capillaires sur un ou deux murs, injection et enduit",
+      "facteurs_de_variation": "Nombre de murs, drainage extérieur à créer, hauteur d'humidité",
+      "fiabilite": "faible"
+    },
+    "AUTR-01": {
+      "cout_min": 80,
+      "cout_max": 350,
+      "duree_min_heures": 1,
+      "duree_max_heures": 2.5,
+      "technicien": "Vitrier",
+      "inclus": "Main d'œuvre + vitrage simple de taille courante",
+      "hypotheses": "Vitre simple standard à remplacer, châssis sain",
+      "facteurs_de_variation": "Double vitrage, grande dimension, châssis à réparer",
+      "fiabilite": "moyenne"
+    },
+    "AUTR-02": {
+      "cout_min": 50,
+      "cout_max": 250,
+      "duree_min_heures": 0.5,
+      "duree_max_heures": 2,
+      "technicien": "Technicien volets",
+      "inclus": "Main d'œuvre + sangle, axe ou petite pièce",
+      "hypotheses": "Sangle ou lame abîmée sur un volet manuel, accès facile",
+      "facteurs_de_variation": "Moteur électrique à remplacer, caisson à démonter",
+      "fiabilite": "moyenne"
+    },
+    "AUTR-03": {
+      "cout_min": 100,
+      "cout_max": 400,
+      "duree_min_heures": 1,
+      "duree_max_heures": 3,
+      "technicien": "Société de désinsectisation ou dératisation",
+      "inclus": "Main d'œuvre + traitement et obturation des accès principaux",
+      "hypotheses": "Traitement d'un logement, une seule intervention",
+      "facteurs_de_variation": "Infestation étendue, immeuble entier, plusieurs passages nécessaires",
+      "fiabilite": "faible"
+    }
+  }
+}

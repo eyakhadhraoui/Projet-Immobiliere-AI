@@ -1,0 +1,10 @@
+# Dépendances facultatives pour le détecteur local MiniLM + LoRA.
+# L'application reste utilisable avec TF-IDF et IsolationForest si ce fichier n'est pas installé.
+# LightGBM LambdaRank pour le classement des annonces (repli chronologique sans le paquet ou le modèle).
+lightgbm>=4.5,<5
+torch==2.14.1
+sentence-transformers==5.7.0
+transformers==5.20.2
+peft==0.21.2
+accelerate==1.15.0
+psutil==7.2.2

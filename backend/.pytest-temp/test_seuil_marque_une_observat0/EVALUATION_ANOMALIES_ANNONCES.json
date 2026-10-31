@@ -1,0 +1,57 @@
+{
+  "nature": "non_supervise_sans_labels; anomalie statistique != fraude",
+  "n_annonces_source_importees": 180,
+  "n_annonces_valides": 150,
+  "n_valides_avant_dedoublonnage": 180,
+  "n_doublons_exclus": 30,
+  "n_exclues_controle_qualite": 0,
+  "n_train": 90,
+  "n_validation": 30,
+  "n_test": 30,
+  "doublons_identiques_inter_splits": 0,
+  "modele": "IsolationForest",
+  "parametres": {
+    "n_estimators": 200,
+    "max_samples": 90,
+    "random_state": 42,
+    "contamination": "auto"
+  },
+  "validation": {
+    "stabilite_spearman_100_200": 0.9764182424916574,
+    "quantile_seuil": 0.95,
+    "seuil_score_brut": 0.07210652644279207,
+    "interpretation": "budget de revue, pas précision cible"
+  },
+  "test": {
+    "alertes_modele": 3,
+    "taux_alertes_modele": 0.1,
+    "alertes_regle_prix_m2": 1,
+    "taux_alertes_regle_prix_m2": 0.03333333333333333,
+    "accord_modele_regle": 0.9333333333333333,
+    "metriques_supervisees": null
+  },
+  "bornes_prix_m2_train": {
+    "vente": [
+      1561.872606329369,
+      3222.0
+    ]
+  },
+  "quantiles_caracteristiques_train": {
+    "log_prix_m2": [
+      7.3542808008688505,
+      8.07788522692397
+    ],
+    "log_surface": [
+      4.330733340286331,
+      4.820281565605037
+    ],
+    "nb_pieces": [
+      2.0,
+      6.0
+    ]
+  },
+  "limites": [
+    "Le jeu de données contient des prix affichés, sans labels d'anomalie.",
+    "Les alertes sont à vérifier par une personne; elles ne caractérisent pas une fraude."
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <style>
+    .fond { fill: #e8edf2; }
+    .trait { stroke: #9aa8b6; }
+    .plein { fill: #9aa8b6; }
+    .texte { fill: #52606d; }
+    @media (prefers-color-scheme: dark) {
+      .fond { fill: #2a323d; }
+      .trait { stroke: #7b8794; }
+      .plein { fill: #7b8794; }
+      .texte { fill: #c4ccd6; }
+    }
+  </style>
+  <rect class="fond" width="400" height="300"/>
+  <path class="trait" d="M140 170 L200 120 L260 170 V215 H140 Z" fill="none" stroke-width="8" stroke-linejoin="round"/>
+  <rect class="plein" x="185" y="180" width="30" height="35"/>
+  <text class="texte" x="200" y="255" font-family="system-ui, sans-serif" font-size="20" text-anchor="middle">Aucune photo</text>
+</svg>

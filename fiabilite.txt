@@ -1,0 +1,22 @@
+Tout ce qu'il faut copier tient dans un seul fichier : docs/kit-fiabilite-codex.zip (2,1 Mo, 244 fichiers). Il est déjà rangé comme dans le nouveau projet. J'ai vérifié que chaque fichier du zip est identique à l'original.
+
+Contenu du zip
+
+Dans le zip	À quoi ça sert
+LISEZMOI.txt	le mode d'emploi
+AGENTS.md	les règles permanentes pour Codex
+docs/PROMPTS-FIABILITE-CODEX.md	les prompts 1 à 12, à donner un par un
+docs/test-externe-paraphrases.txt	les 20 paires du test externe
+backend/tests/donnees_fiabilite/	le jeu annoté fictif, avec ses 234 photos
+backend/modeles/fiabilite/lora/	l'adaptateur LoRA déjà entraîné
+backend/modeles/fiabilite/seuils.json	les seuils réglés sur la validation
+Étapes dans l'autre projet
+
+Décompresse le zip à la racine du nouveau projet, en fusionnant avec les dossiers existants.
+Ouvre AGENTS.md et remplace les <...> : nom du projet, modules existants, version de Python.
+Ajoute au .gitignore : backend/modeles/, backend/instance/, backend/uploads/, .env.
+Donne à Codex le prompt 1 de docs/PROMPTS-FIABILITE-CODEX.md, vérifie ses critères, puis passe au prompt 2, et ainsi de suite.
+Le modèle de base (470 Mo) n'est pas dans le zip : Codex le télécharge depuis le Hugging Face Hub au prompt 4.
+À ne pas copier depuis ce projet : venv, node_modules, les bases .db, uploads, .env, modele_production. Ce dernier se reconstruit tout seul.
+
+J'ai ajouté l'entrée DOC-FIAB-KIT au journal. Ne commite pas le zip, il sert seulement au transfert. Aucun code de l'application n'a été modifié, aucun commit ni push.

@@ -1,0 +1,197 @@
+.dossiers-litige {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 1.5rem auto 3rem;
+}
+
+.dossiers-litige__intro h1 { margin-bottom: 0.15rem; }
+.dossiers-litige__intro p { margin: 0 0 0.75rem; color: var(--texte-doux); }
+.dossiers-litige__avis,
+.dossiers-litige__confidentialite {
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--bordure);
+  border-radius: 0.55rem;
+  background: var(--fond-doux, var(--surface));
+  color: var(--principal);
+  font-size: 0.84rem;
+}
+.dossiers-litige__avis { margin-bottom: 1rem; }
+.dossiers-litige__erreur { color: var(--erreur); }
+.dossiers-litige__mise-en-page {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.32fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 1rem;
+}
+.dossiers-litige__panneau {
+  min-width: 0;
+  border: 1px solid var(--bordure);
+  border-radius: 0.75rem;
+  background: var(--surface);
+  box-shadow: var(--ombre-legere);
+}
+.dossiers-litige__liste { padding: 1rem; }
+.dossiers-litige__liste h2,
+.dossiers-litige__entete-dossier h2 { margin: 0 0 0.65rem; font-size: 1.05rem; }
+.dossiers-litige__creation { display: grid; gap: 0.45rem; margin-bottom: 0.75rem; }
+.dossiers-litige__creation input,
+.dossiers-litige__creation textarea,
+.dossiers-litige__creation select,
+.dossiers-litige__recherche input,
+.dossiers-litige__filtres input,
+.dossiers-litige__filtres select,
+.dossiers-litige__metadonnees-import input,
+.dossiers-litige__metadonnees-import select,
+.dossiers-litige__document form input,
+.dossiers-litige__document form select {
+  min-width: 0;
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--bordure);
+  border-radius: 0.5rem;
+  background: var(--champ-fond);
+  color: var(--texte);
+}
+.dossiers-litige__creation .bouton { width: 100%; }
+.dossiers-litige__cartes { display: grid; gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
+.dossiers-litige__carte {
+  display: grid;
+  width: 100%;
+  gap: 0.15rem;
+  padding: 0.7rem;
+  border: 1px solid var(--bordure);
+  border-radius: 0.55rem;
+  background: var(--surface);
+  color: var(--texte);
+  text-align: left;
+  cursor: pointer;
+}
+.dossiers-litige__carte:hover,
+.dossiers-litige__carte.est-actif { border-color: var(--principal); background: var(--fond-doux, var(--surface)); }
+.dossiers-litige__carte strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dossiers-litige__carte span { color: var(--texte-doux); font-size: 0.76rem; }
+.dossiers-litige__contenu { min-width: 0; }
+.dossiers-litige__entete-dossier { padding: 0.85rem 1rem; }
+.dossiers-litige__badges { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.dossiers-litige__badge {
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--badge-fond);
+  color: var(--badge-texte);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.dossiers-litige__badge--sujet { background: var(--action-statut-fond); color: var(--action-statut); }
+.dossiers-litige__onglets {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--bordure);
+  margin: 0.35rem 0 0.7rem;
+}
+.dossiers-litige__onglets button {
+  flex: 0 0 auto;
+  padding: 0.6rem 0.25rem;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--texte-doux);
+  cursor: pointer;
+}
+.dossiers-litige__onglets button[aria-selected="true"] { border-color: var(--principal); color: var(--principal); font-weight: 700; }
+.dossiers-litige__zone { padding: 1rem; }
+.dossiers-litige__zone h3 { margin: 0 0 0.7rem; font-size: 1rem; }
+.dossiers-litige__zone h4 { margin: 0.6rem 0; }
+.dossiers-litige__entete-dossier { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.6rem; align-items: start; }
+.dossiers-litige__entete-dossier p { margin: 0 0 0.6rem; color: var(--texte-doux); }
+.dossiers-litige__entete-dossier .dossiers-litige__badges { grid-column: 1 / -1; }
+.dossiers-litige__metadonnees-import,
+.dossiers-litige__filtres { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: 0.65rem; margin-bottom: 0.8rem; }
+.dossiers-litige__metadonnees-import label,
+.dossiers-litige__filtres label,
+.dossiers-litige__document form label { display: grid; gap: 0.3rem; color: var(--texte-doux); font-size: 0.82rem; }
+.dossiers-litige__documents { display: grid; gap: 0.75rem; margin-top: 0.8rem; }
+.dossiers-litige__document,
+.dossiers-litige__reponse,
+.dossiers-litige__source,
+.dossiers-litige__parties section { padding: 0.8rem; border: 1px solid var(--bordure); border-radius: 0.6rem; background: var(--surface); }
+.dossiers-litige__document > header { display: flex; align-items: start; justify-content: space-between; gap: 0.6rem; }
+.dossiers-litige__document h4 { margin: 0; }
+.dossiers-litige__document header span,
+.dossiers-litige__document small { color: var(--texte-doux); }
+.dossiers-litige__document details { margin: 0.6rem 0; }
+.dossiers-litige__document details summary { color: var(--principal); cursor: pointer; }
+.dossiers-litige__document form { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.6rem; margin: 0.7rem 0; }
+.dossiers-litige__document form button { align-self: end; }
+.dossiers-litige__correction { display: flex; flex-wrap: wrap; align-items: end; gap: 0.5rem; margin-top: 0.6rem; }
+.dossiers-litige__correction label { display: grid; gap: 0.25rem; color: var(--texte-doux); font-size: 0.75rem; }
+.dossiers-litige__correction select { min-width: 145px; padding: 0.45rem; border: 1px solid var(--bordure); border-radius: 0.4rem; background: var(--champ-fond); color: var(--texte); }
+.dossiers-litige__document ul { display: grid; gap: 0.5rem; margin: 0.6rem 0 0; padding-left: 1.1rem; }
+.dossiers-litige__document blockquote { margin: 0.3rem 0; }
+.dossiers-litige__document a { display: inline-block; margin-top: 0.4rem; color: var(--principal); }
+.dossiers-litige__recherche { grid-template-columns: minmax(0, 1fr) auto auto; align-items: end; }
+.dossiers-litige__recherche label { grid-column: 1 / -1; }
+.dossiers-litige__recherche button { min-height: 2.6rem; }
+.dossiers-litige__parties { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; }
+.dossiers-litige__parties article { padding: 0.6rem 0; border-top: 1px solid var(--bordure); }
+.dossiers-litige__parties blockquote { margin: 0.2rem 0; }
+.dossiers-litige__reponse { margin-top: 0.8rem; background: var(--fond-doux, var(--surface)); }
+.dossiers-litige__reponse blockquote { padding: 0.6rem; border-left: 3px solid var(--principal); background: var(--surface); overflow-wrap: anywhere; }
+.dossiers-litige__export { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.dossiers-litige__depot {
+  display: grid;
+  width: 100%;
+  min-height: 112px;
+  place-content: center;
+  justify-items: center;
+  gap: 0.2rem;
+  border: 2px dashed var(--bordure);
+  border-radius: 0.65rem;
+  background: var(--surface);
+  color: var(--texte);
+  cursor: pointer;
+}
+.dossiers-litige__depot:hover { border-color: var(--principal); }
+.dossiers-litige__depot .bouton { padding: 0.35rem 0.7rem; }
+.dossiers-litige__confidentialite { margin: 0.55rem 0; color: var(--avertissement); background: var(--avertissement-fond); border-color: var(--avertissement-bordure); }
+.dossiers-litige__table-defilement { overflow-x: auto; }
+.dossiers-litige__table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.dossiers-litige__table th,
+.dossiers-litige__table td { padding: 0.6rem; border-bottom: 1px solid var(--bordure); text-align: left; }
+.dossiers-litige__table thead th { background: var(--fond-doux, var(--surface)); color: var(--texte-doux); font-size: 0.68rem; text-transform: uppercase; }
+.dossiers-litige__table tbody th { font-weight: 700; }
+.dossiers-litige__recherche { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.5rem; margin-bottom: 1rem; }
+.dossiers-litige__sources,
+.dossiers-litige__declarations { display: grid; gap: 0.55rem; margin: 0; padding: 0; list-style: none; }
+.dossiers-litige__sources li,
+.dossiers-litige__declarations li,
+.dossiers-litige__chronologie li {
+  padding: 0.75rem;
+  border: 1px solid var(--bordure);
+  border-radius: 0.6rem;
+  background: var(--fond-doux, var(--surface));
+}
+.dossiers-litige__sources li > header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.4rem; color: var(--principal); font-size: 0.76rem; }
+.dossiers-litige__sources li > header span { color: var(--texte-doux); }
+.dossiers-litige__sources blockquote,
+.dossiers-litige__declarations blockquote,
+.dossiers-litige__chronologie blockquote { margin: 0.45rem 0; }
+.dossiers-litige__sources small,
+.dossiers-litige__declarations small,
+.dossiers-litige__chronologie small { color: var(--texte-doux); }
+.dossiers-litige__declarations li > span { color: var(--principal); font-weight: 700; }
+.dossiers-litige__chronologie { display: grid; gap: 0.6rem; padding-left: 1.3rem; }
+.dossiers-litige__chronologie time { font-weight: 700; }
+.dossiers-litige__limite,
+.dossiers-litige__vide { color: var(--texte-doux); font-size: 0.82rem; }
+.dossiers-litige__limite { margin: 0.8rem 0 0; }
+
+@media (max-width: 720px) {
+  .dossiers-litige { width: min(100% - 1rem, 600px); margin-top: 1rem; }
+  .dossiers-litige__mise-en-page { grid-template-columns: 1fr; }
+  .dossiers-litige__liste { padding: 0.8rem; }
+  .dossiers-litige__cartes { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+  .dossiers-litige__zone { padding: 0.75rem; }
+  .dossiers-litige__recherche { grid-template-columns: 1fr; }
+  .dossiers-litige__parties { grid-template-columns: 1fr; }
+  .dossiers-litige__table { min-width: 620px; }
+}

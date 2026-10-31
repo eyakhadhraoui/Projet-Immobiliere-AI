@@ -1,0 +1,182 @@
+{
+  "avertissement": "ANNONCES FICTIVES rédigées par l'assistant d'IA (Claude Code) pour FIAB-002 : ce ne sont PAS des annonces réelles. Chaque groupe réunit 3 biens DIFFÉRENTS de même ville, même type et même transaction (paires difficiles). La « paraphrase » décrit le MÊME bien avec d'autres mots (doublon probable).",
+  "auteur": "Claude Code (assistant d'IA), 2026-10-25",
+  "groupes": [
+    {"id": "G01", "ville": "Sousse", "type_bien": "appartement", "transaction": "location", "sources": [
+      {"id": "S01", "surface": 85, "nb_pieces": 3, "prix": 750,
+       "description": "Appartement de 85 m² au troisième étage avec ascenseur, à Khezama. Deux chambres, salon lumineux, cuisine équipée. Proche de la plage et des commerces. Libre dès le mois prochain.",
+       "paraphrase": "À louer à Khezama : logement de 85 m² situé au 3e niveau, immeuble avec ascenseur. Il compte deux chambres, un séjour très clair et une cuisine aménagée. Mer et magasins à deux pas, disponible le mois prochain."},
+      {"id": "S02", "surface": 88, "nb_pieces": 3, "prix": 780,
+       "description": "Bel appartement au rez-de-chaussée d'une petite résidence à Sahloul, avec jardinet privatif. Deux chambres, séjour, salle d'eau refaite. Parking dans la cour. Idéal pour un couple avec enfant.",
+       "paraphrase": "Résidence calme de Sahloul : rez-de-chaussée de 88 m² avec un petit jardin à vous. Séjour, deux chambres et salle d'eau rénovée. On se gare dans la cour. Parfait pour une petite famille."},
+      {"id": "S03", "surface": 120, "nb_pieces": 4, "prix": 1100,
+       "description": "Grand appartement de 120 m² en centre-ville, trois chambres dont une suite parentale, double séjour et balcon filant. Climatisation dans toutes les pièces. Gardien et parking sous-sol.",
+       "paraphrase": "Au cœur de la ville, 120 m² avec trois chambres (dont une avec sa salle de bain), double salon et long balcon. Toutes les pièces sont climatisées ; immeuble gardé avec place au sous-sol."}
+    ]},
+    {"id": "G02", "ville": "La Marsa", "type_bien": "appartement", "transaction": "vente", "sources": [
+      {"id": "S04", "surface": 110, "nb_pieces": 3, "prix": 420000,
+       "description": "À vendre à Marsa Cube, appartement de 110 m² au deuxième étage, vue dégagée sur les jardins. Deux chambres, salon en L, cuisine indépendante. Titre bleu, résidence sécurisée.",
+       "paraphrase": "Marsa Cube : appartement de 110 m² en vente, 2e étage donnant sur les espaces verts. Il offre deux chambres, un séjour en L et une cuisine séparée. Titre foncier disponible, accès sécurisé."},
+      {"id": "S05", "surface": 115, "nb_pieces": 3, "prix": 440000,
+       "description": "Appartement neuf de 115 m² près de la plage de La Marsa, jamais habité. Deux chambres avec placards, séjour ouvert sur terrasse, chauffage central. Livraison immédiate par le promoteur.",
+       "paraphrase": "Neuf et jamais occupé, ce 115 m² se trouve à quelques minutes de la plage. Séjour ouvert vers une terrasse, deux chambres avec rangements, chauffage central. Le promoteur le livre tout de suite."},
+      {"id": "S06", "surface": 90, "nb_pieces": 2, "prix": 350000,
+       "description": "Appartement de 90 m² à La Marsa Corniche, au dernier étage avec terrasse privative et vue mer. Une chambre, grand séjour, cuisine américaine. Petite copropriété de six logements.",
+       "paraphrase": "Sur la corniche, dernier étage de 90 m² avec terrasse à soi et vue sur la mer. Une chambre, vaste pièce de vie et cuisine ouverte. Immeuble de seulement six appartements."}
+    ]},
+    {"id": "G03", "ville": "Hammamet", "type_bien": "villa", "transaction": "vente", "sources": [
+      {"id": "S07", "surface": 300, "nb_pieces": 5, "prix": 650000,
+       "description": "Villa de 300 m² à Hammamet Nord sur un terrain de 600 m², piscine, quatre chambres, salon avec cheminée. Garage double et jardin arboré. À dix minutes du centre.",
+       "paraphrase": "Hammamet Nord : maison individuelle de 300 m² posée sur 600 m² de terrain, avec piscine. Quatre chambres, salon et sa cheminée, garage pour deux voitures, jardin planté. Le centre est à dix minutes."},
+      {"id": "S08", "surface": 310, "nb_pieces": 5, "prix": 690000,
+       "description": "Villa contemporaine de 310 m² à Yasmine Hammamet, toit-terrasse, quatre suites, cuisine ouverte sur la piscine. Domotique et panneaux solaires. Résidence fermée avec gardiennage.",
+       "paraphrase": "À Yasmine, villa moderne de 310 m² avec toiture-terrasse et quatre chambres ayant chacune sa salle de bain. La cuisine donne sur la piscine ; maison connectée et équipée de panneaux solaires, dans un domaine gardé."},
+      {"id": "S09", "surface": 250, "nb_pieces": 4, "prix": 520000,
+       "description": "Villa traditionnelle de 250 m² à Hammamet centre, patio intérieur, trois chambres, hammam privé. Proche de la médina. Quelques travaux de peinture à prévoir.",
+       "paraphrase": "Près de la médina d'Hammamet, villa de style traditionnel de 250 m² organisée autour d'un patio. Trois chambres et un hammam à usage privé. Prévoir un rafraîchissement des peintures."}
+    ]},
+    {"id": "G04", "ville": "Tunis", "type_bien": "studio", "transaction": "location", "sources": [
+      {"id": "S10", "surface": 35, "nb_pieces": 1, "prix": 450,
+       "description": "Studio meublé de 35 m² à Lafayette, proche du métro. Coin cuisine, salle d'eau avec douche, rangements. Idéal étudiant ou jeune actif. Charges comprises.",
+       "paraphrase": "Lafayette, à côté du métro : studio de 35 m² loué avec ses meubles. Kitchenette, douche, placards. Convient à un étudiant ou à une personne qui débute. Charges incluses dans le loyer."},
+      {"id": "S11", "surface": 36, "nb_pieces": 1, "prix": 470,
+       "description": "Studio de 36 m² au Bardo, non meublé, au premier étage d'une maison. Entrée indépendante, petite cour. Quartier calme près des écoles et de la gare.",
+       "paraphrase": "Au Bardo, studio vide de 36 m² au 1er étage d'une villa, avec sa propre entrée et une courette. Secteur tranquille, écoles et gare à proximité."},
+      {"id": "S12", "surface": 42, "nb_pieces": 1, "prix": 520,
+       "description": "Studio rénové de 42 m² au Lac 1, vue sur le lac, climatisé, cuisine équipée. Immeuble récent avec ascenseur et parking. Disponible immédiatement.",
+       "paraphrase": "Lac 1 : 42 m² entièrement refait avec vue sur le lac. Climatisation, cuisine aménagée, ascenseur et place de parking dans un bâtiment récent. Libre tout de suite."}
+    ]},
+    {"id": "G05", "ville": "Sfax", "type_bien": "maison", "transaction": "vente", "sources": [
+      {"id": "S13", "surface": 200, "nb_pieces": 4, "prix": 280000,
+       "description": "Maison de 200 m² route de Gremda km 5, trois chambres, salon, grande cuisine. Jardin avec oliviers et puits. Garage. Titre en règle.",
+       "paraphrase": "Route de Gremda au kilomètre 5, maison de 200 m² avec trois chambres, un séjour et une cuisine spacieuse. Le jardin a des oliviers et un puits ; garage. Papiers en ordre."},
+      {"id": "S14", "surface": 210, "nb_pieces": 4, "prix": 300000,
+       "description": "Maison sur deux niveaux de 210 m² route de l'Aïn, trois chambres à l'étage, salon et cuisine au rez-de-chaussée. Terrasse couverte. Possibilité de surélévation.",
+       "paraphrase": "Route de l'Aïn : maison en duplex de 210 m². En bas salon et cuisine, en haut trois chambres. Terrasse abritée, on peut construire un étage supplémentaire."},
+      {"id": "S15", "surface": 160, "nb_pieces": 3, "prix": 210000,
+       "description": "Petite maison de 160 m² à Sakiet Ezzit, deux chambres, salon, cour intérieure. Proche des commerces et du lycée. Toiture refaite récemment.",
+       "paraphrase": "Sakiet Ezzit : maison de 160 m² avec deux chambres, un salon et une cour au centre. Magasins et lycée tout près. Le toit vient d'être refait."}
+    ]},
+    {"id": "G06", "ville": "Ariana", "type_bien": "appartement", "transaction": "location", "sources": [
+      {"id": "S16", "surface": 100, "nb_pieces": 3, "prix": 900,
+       "description": "Appartement de 100 m² à Ennasr 2, deux chambres, salon double, cuisine équipée, deux balcons. Ascenseur et parking. Proche des cafés et des écoles privées.",
+       "paraphrase": "Ennasr 2 : 100 m² à louer avec deux chambres, double séjour, cuisine aménagée et deux balcons. Immeuble avec ascenseur et parking ; cafés et écoles privées à proximité."},
+      {"id": "S17", "surface": 102, "nb_pieces": 3, "prix": 950,
+       "description": "Appartement meublé de 102 m² à La Soukra, résidence avec piscine commune. Deux chambres, salle de bain et toilettes séparées. Chauffage et climatisation.",
+       "paraphrase": "La Soukra, résidence avec piscine partagée : 102 m² loué meublé, deux chambres, salle de bain et WC à part. Chauffé l'hiver, climatisé l'été."},
+      {"id": "S18", "surface": 75, "nb_pieces": 2, "prix": 650,
+       "description": "Appartement de 75 m² à Ariana Ville, une chambre, séjour, cuisine. Deuxième étage sans ascenseur. Proche du marché et des transports.",
+       "paraphrase": "Ariana centre : 75 m² au 2e sans ascenseur, avec une chambre, un séjour et une cuisine. Marché et bus à quelques pas."}
+    ]},
+    {"id": "G07", "ville": "Monastir", "type_bien": "appartement", "transaction": "vente", "sources": [
+      {"id": "S19", "surface": 95, "nb_pieces": 3, "prix": 210000,
+       "description": "Appartement de 95 m² à Skanes, à 300 mètres de la mer. Deux chambres, salon, cuisine, balcon. Résidence avec gardien. Vendu avec climatiseurs.",
+       "paraphrase": "Skanes, la mer à 300 m : 95 m² en vente avec deux chambres, salon, cuisine et balcon. Gardien sur place ; les climatiseurs restent."},
+      {"id": "S20", "surface": 98, "nb_pieces": 3, "prix": 225000,
+       "description": "Appartement de 98 m² près de la marina de Monastir, troisième étage, vue sur le port. Deux chambres, séjour, cuisine ouverte. Idéal investissement locatif.",
+       "paraphrase": "Vue sur le port depuis ce 3e étage de 98 m² proche de la marina. Deux chambres, séjour, cuisine ouverte : bon placement pour la location."},
+      {"id": "S21", "surface": 130, "nb_pieces": 4, "prix": 290000,
+       "description": "Appartement familial de 130 m² au centre de Monastir, trois chambres, deux salles d'eau, séjour spacieux. Proche de l'université et de l'hôpital.",
+       "paraphrase": "Centre de Monastir : 130 m² pour une famille, trois chambres, deux salles d'eau et un grand séjour. Université et hôpital à proximité."}
+    ]},
+    {"id": "G08", "ville": "Nabeul", "type_bien": "maison", "transaction": "location", "sources": [
+      {"id": "S22", "surface": 150, "nb_pieces": 4, "prix": 900,
+       "description": "Maison de 150 m² à Nabeul, quartier Mrezga, trois chambres, salon, jardin avec barbecue. À 1 km de la plage. Location à l'année.",
+       "paraphrase": "Mrezga, Nabeul : maison de 150 m² louée à l'année. Trois chambres, salon et jardin équipé d'un barbecue. Plage à un kilomètre."},
+      {"id": "S23", "surface": 155, "nb_pieces": 4, "prix": 950,
+       "description": "Maison de plain-pied de 155 m² à Nabeul centre, trois chambres, grande cuisine, cour avec citronniers. Garage. Proche de la gare.",
+       "paraphrase": "Plain-pied de 155 m² au centre de Nabeul : trois chambres, cuisine spacieuse, cour plantée de citronniers et garage. La gare n'est pas loin."},
+      {"id": "S24", "surface": 120, "nb_pieces": 3, "prix": 700,
+       "description": "Maison de 120 m² à Nabeul, deux chambres, salon, terrasse sur le toit. Rue calme près du souk des potiers.",
+       "paraphrase": "Nabeul, rue tranquille à côté du souk des potiers : maison de 120 m² avec deux chambres, salon et toit-terrasse."}
+    ]},
+    {"id": "G09", "ville": "Bizerte", "type_bien": "appartement", "transaction": "vente", "sources": [
+      {"id": "S25", "surface": 80, "nb_pieces": 2, "prix": 160000,
+       "description": "Appartement de 80 m² à Bizerte, vue sur le vieux port, une chambre, séjour, cuisine. Immeuble ancien rénové. Proche des commerces.",
+       "paraphrase": "Vieux port de Bizerte en vue : 80 m² avec une chambre, séjour et cuisine dans un bâtiment ancien remis à neuf. Commerces tout près."},
+      {"id": "S26", "surface": 82, "nb_pieces": 2, "prix": 170000,
+       "description": "Appartement de 82 m² à la Corniche de Bizerte, une chambre, salon avec baie vitrée, parking privé. Résidence récente.",
+       "paraphrase": "Corniche de Bizerte, résidence neuve : 82 m², une chambre, salon à grande baie vitrée et place de parking privée."},
+      {"id": "S27", "surface": 105, "nb_pieces": 3, "prix": 210000,
+       "description": "Appartement de 105 m² à Zarzouna, deux chambres, séjour, deux balcons. Premier étage. Proche du pont et de l'autoroute.",
+       "paraphrase": "Zarzouna : 105 m² au premier, deux chambres, séjour et deux balcons. Accès rapide au pont et à l'autoroute."}
+    ]},
+    {"id": "G10", "ville": "Ben Arous", "type_bien": "appartement", "transaction": "location", "sources": [
+      {"id": "S28", "surface": 90, "nb_pieces": 3, "prix": 650,
+       "description": "Appartement de 90 m² à El Mourouj 4, deux chambres, salon, cuisine équipée. Quatrième étage avec ascenseur. Proche du centre commercial.",
+       "paraphrase": "El Mourouj 4 : location de 90 m² au 4e avec ascenseur. Deux chambres, salon, cuisine aménagée, centre commercial à proximité."},
+      {"id": "S29", "surface": 92, "nb_pieces": 3, "prix": 680,
+       "description": "Appartement de 92 m² à Radès, deux chambres, séjour, balcon donnant sur le stade. Parking. Proche du RER.",
+       "paraphrase": "Radès, balcon tourné vers le stade : 92 m² avec deux chambres et un séjour. Parking ; RER à deux pas."},
+      {"id": "S30", "surface": 70, "nb_pieces": 2, "prix": 520,
+       "description": "Appartement de 70 m² à Ezzahra, une chambre, salon, cuisine. À 500 mètres de la plage. Disponible pour une famille ou un couple.",
+       "paraphrase": "Ezzahra, plage à 500 m : 70 m² avec une chambre, salon et cuisine, pour un couple ou une petite famille."}
+    ]},
+    {"id": "G11", "ville": "Tunis", "type_bien": "appartement", "transaction": "vente", "sources": [
+      {"id": "S31", "surface": 120, "nb_pieces": 3, "prix": 380000,
+       "description": "Appartement de 120 m² à Menzah 6, deux chambres, salon double, cuisine équipée, terrasse. Quartier résidentiel calme.",
+       "paraphrase": "Menzah 6, secteur résidentiel tranquille : 120 m² à vendre avec deux chambres, double séjour, cuisine aménagée et terrasse."},
+      {"id": "S32", "surface": 125, "nb_pieces": 3, "prix": 395000,
+       "description": "Appartement haussmannien de 125 m² au centre-ville de Tunis, hauts plafonds, deux chambres, salon, parquet ancien. Immeuble classé.",
+       "paraphrase": "Centre de Tunis, immeuble de caractère : 125 m² avec plafonds hauts, parquet d'époque, deux chambres et un salon."},
+      {"id": "S33", "surface": 150, "nb_pieces": 4, "prix": 520000,
+       "description": "Appartement de 150 m² au Lac 2, trois chambres, deux salles de bain, séjour avec vue sur le lac. Résidence avec salle de sport.",
+       "paraphrase": "Lac 2 : 150 m², trois chambres, deux salles de bain et séjour face au lac. La résidence a une salle de sport."}
+    ]},
+    {"id": "G12", "ville": "Sousse", "type_bien": "villa", "transaction": "location", "sources": [
+      {"id": "S34", "surface": 280, "nb_pieces": 5, "prix": 2500,
+       "description": "Villa de 280 m² à Chott Meriem, quatre chambres, piscine, jardin. Location à l'année. Proche du golf et de la plage.",
+       "paraphrase": "Chott Meriem : villa de 280 m² louée à l'année, quatre chambres, piscine et jardin. Golf et plage à proximité."},
+      {"id": "S35", "surface": 290, "nb_pieces": 5, "prix": 2700,
+       "description": "Villa meublée de 290 m² à El Kantaoui, quatre chambres, salon marocain, piscine chauffée. Gardien et jardinier inclus.",
+       "paraphrase": "El Kantaoui : 290 m² loués avec les meubles, quatre chambres, salon de style marocain et piscine chauffée. Gardien et jardinier compris."},
+      {"id": "S36", "surface": 220, "nb_pieces": 4, "prix": 2000,
+       "description": "Villa de 220 m² à Sahloul 4, trois chambres, bureau, garage. Petit jardin sans piscine. Quartier proche des cliniques.",
+       "paraphrase": "Sahloul 4, près des cliniques : villa de 220 m² avec trois chambres, un bureau et un garage. Jardinet, pas de piscine."}
+    ]},
+    {"id": "G13", "ville": "Mahdia", "type_bien": "appartement", "transaction": "location", "sources": [
+      {"id": "S37", "surface": 70, "nb_pieces": 2, "prix": 500,
+       "description": "Appartement de 70 m² dans la zone touristique de Mahdia, une chambre, salon, balcon vue mer. Location à l'année.",
+       "paraphrase": "Zone touristique de Mahdia : 70 m² loué à l'année, une chambre, salon et balcon avec vue sur la mer."},
+      {"id": "S38", "surface": 72, "nb_pieces": 2, "prix": 520,
+       "description": "Appartement de 72 m² en médina de Mahdia, une chambre, coin cuisine, terrasse sur le toit. Maison ancienne restaurée.",
+       "paraphrase": "Dans la médina de Mahdia, maison ancienne restaurée : 72 m² avec une chambre, kitchenette et terrasse en toiture."},
+      {"id": "S39", "surface": 95, "nb_pieces": 3, "prix": 650,
+       "description": "Appartement de 95 m² à Hiboun, deux chambres, salon, cuisine équipée. Proche de l'hôpital et du lycée.",
+       "paraphrase": "Hiboun : 95 m² avec deux chambres, salon et cuisine aménagée. Hôpital et lycée tout près."}
+    ]},
+    {"id": "G14", "ville": "La Marsa", "type_bien": "maison", "transaction": "vente", "sources": [
+      {"id": "S40", "surface": 250, "nb_pieces": 5, "prix": 900000,
+       "description": "Maison de 250 m² à Gammarth, quatre chambres, jardin, vue sur la colline. Garage et chambre de service.",
+       "paraphrase": "Gammarth, côté colline : maison de 250 m² avec quatre chambres, jardin, garage et une chambre de service."},
+      {"id": "S41", "surface": 260, "nb_pieces": 5, "prix": 950000,
+       "description": "Maison de maître de 260 m² à Sidi Daoud, quatre chambres, véranda, puits et dépendance. Terrain de 500 m².",
+       "paraphrase": "Sidi Daoud : demeure de 260 m² sur 500 m² de terrain, quatre chambres, véranda, puits et annexe."},
+      {"id": "S42", "surface": 180, "nb_pieces": 4, "prix": 700000,
+       "description": "Maison de 180 m² à Marsa Safsaf, trois chambres, patio, à cinq minutes à pied de la plage. Quelques travaux.",
+       "paraphrase": "Marsa Safsaf, plage à 5 minutes à pied : maison de 180 m², trois chambres et patio. Travaux légers à prévoir."}
+    ]},
+    {"id": "G15", "ville": "Ariana", "type_bien": "studio", "transaction": "vente", "sources": [
+      {"id": "S43", "surface": 40, "nb_pieces": 1, "prix": 115000,
+       "description": "Studio de 40 m² à Ennasr 1, au premier étage, cuisine équipée, salle d'eau. Vendu loué, bon rendement.",
+       "paraphrase": "Ennasr 1 : studio de 40 m² au 1er, cuisine aménagée et salle d'eau. Il est vendu avec son locataire, rentabilité intéressante."},
+      {"id": "S44", "surface": 42, "nb_pieces": 1, "prix": 120000,
+       "description": "Studio neuf de 42 m² à Borj Louzir, balcon, parking en sous-sol. Livraison dans trois mois.",
+       "paraphrase": "Borj Louzir, construction neuve : 42 m² avec balcon et place en sous-sol, remis dans trois mois."},
+      {"id": "S45", "surface": 38, "nb_pieces": 1, "prix": 105000,
+       "description": "Studio de 38 m² à Ghazela, proche de l'école d'ingénieurs, idéal pour location étudiante. Rez-de-chaussée.",
+       "paraphrase": "Ghazela, à côté de l'école d'ingénieurs : studio de 38 m² en rez-de-chaussée, parfait à louer à des étudiants."}
+    ]},
+    {"id": "G16", "ville": "Kairouan", "type_bien": "maison", "transaction": "vente", "sources": [
+      {"id": "S46", "surface": 180, "nb_pieces": 4, "prix": 170000,
+       "description": "Maison de 180 m² à Kairouan, quartier Ennasr, trois chambres, salon, cour. Proche de la grande mosquée.",
+       "paraphrase": "Kairouan, secteur Ennasr : maison de 180 m² avec trois chambres, un salon et une cour, non loin de la grande mosquée."},
+      {"id": "S47", "surface": 185, "nb_pieces": 4, "prix": 175000,
+       "description": "Maison de 185 m² route de Sousse à Kairouan, trois chambres, grand garage pouvant servir de local commercial.",
+       "paraphrase": "Sur la route de Sousse, maison de 185 m² avec trois chambres et un garage assez grand pour devenir un commerce."},
+      {"id": "S48", "surface": 140, "nb_pieces": 3, "prix": 140000,
+       "description": "Maison de 140 m² dans la médina de Kairouan, deux chambres, patio avec faïences anciennes. À rénover en partie.",
+       "paraphrase": "Médina de Kairouan : maison de 140 m² avec deux chambres et un patio aux carreaux anciens, en partie à rénover."}
+    ]}
+  ]
+}

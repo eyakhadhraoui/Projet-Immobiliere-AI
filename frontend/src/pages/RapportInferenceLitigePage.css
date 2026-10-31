@@ -1,0 +1,67 @@
+.rapport-inference {
+  width: min(1240px, calc(100% - 2rem));
+  margin: 1.5rem auto 3rem;
+  color: var(--texte);
+}
+.rapport-inference__intro { margin-bottom: 1.2rem; }
+.rapport-inference__sur-titre { margin: 0; color: var(--texte); font-size: 0.82rem; font-weight: 800; letter-spacing: 0.06em; }
+.rapport-inference__sur-titre--doux { margin-top: 0.15rem; color: var(--texte-doux); font-weight: 600; }
+.rapport-inference__intro h1 { margin: 1.2rem 0 0.3rem; font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.rapport-inference__intro > p:last-child { color: var(--texte-doux); font-size: 1.05rem; }
+.rapport-inference__resume,
+.rapport-inference__bloc,
+.rapport-inference__scenario {
+  padding: 1.15rem;
+  border: 1px solid var(--bordure);
+  border-radius: 0.7rem;
+  background: var(--surface);
+  box-shadow: var(--ombre-legere);
+}
+.rapport-inference__resume { margin-bottom: 1rem; }
+.rapport-inference__resume > strong { font-size: 1.3rem; }
+.rapport-inference__resume p { margin: 0.5rem 0 0; color: var(--texte-doux); }
+.rapport-inference__sommaire { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; margin: 1rem 0; }
+.rapport-inference__grille { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 1rem; }
+.rapport-inference__scenario { scroll-margin-top: 1rem; }
+.rapport-inference__scenario.est-reussi { border-top: 4px solid var(--succes); }
+.rapport-inference__scenario.est-rejete { border-top: 4px solid var(--avertissement); }
+.rapport-inference__scenario h3 { margin: 0 0 0.45rem; font-size: 1.25rem; }
+.rapport-inference__statut { color: var(--texte-doux); font-size: 0.82rem; font-weight: 650; }
+.rapport-inference__question { font-size: 1rem; }
+.rapport-inference__scenario-corps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; }
+.rapport-inference__scenario-corps > section,
+.rapport-inference__controle { min-width: 0; }
+.rapport-inference h4 { margin: 0 0 0.5rem; font-size: 1rem; }
+.rapport-inference__scenario-corps p { line-height: 1.55; }
+.rapport-inference__libelle { display: block; margin-top: 0.7rem; color: var(--texte-doux); font-size: 0.75rem; font-weight: 800; text-transform: uppercase; }
+.rapport-inference__valeur { display: block; margin: 0.2rem 0; font-size: 1.4rem; }
+.rapport-inference__scenario small { display: block; color: var(--texte-doux); }
+.rapport-inference blockquote { margin: 0 0 0.7rem; padding: 0.75rem; border-left: 3px solid var(--bordure); background: var(--fond-doux, var(--surface)); }
+.rapport-inference blockquote strong,
+.rapport-inference__validation,
+.rapport-inference__auteur { display: block; margin-bottom: 0.3rem; }
+.rapport-inference__auteur,
+.rapport-inference__validation { color: var(--texte-doux); font-size: 0.76rem; font-weight: 700; }
+.rapport-inference__validation { color: var(--avertissement); }
+.rapport-inference__controle { margin-top: 0.9rem; padding-top: 0.8rem; border-top: 1px solid var(--bordure); }
+.rapport-inference__bloc { margin-top: 1rem; }
+.rapport-inference__bloc h2 { margin: 0 0 0.6rem; font-size: 1.25rem; }
+.rapport-inference__bloc p { line-height: 1.5; }
+.rapport-inference__bloc small { color: var(--texte-doux); }
+.rapport-inference__recherche > p { color: var(--texte-doux); }
+.rapport-inference__etapes { padding: 0.7rem; border: 1px solid var(--bordure); border-radius: 0.55rem; background: var(--fond-doux, var(--surface)); }
+.rapport-inference__passages { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; }
+.rapport-inference__passages article { padding: 0.75rem; border: 1px solid var(--bordure); border-radius: 0.55rem; }
+.rapport-inference__passages article > strong { color: var(--texte-doux); font-size: 0.78rem; }
+.rapport-inference__passages h3 { margin: 0.35rem 0; font-size: 1rem; }
+.rapport-inference__passages p { margin: 0.35rem 0; font-size: 0.82rem; }
+.rapport-inference__passages blockquote { margin-bottom: 0; color: var(--texte-doux); font-size: 0.85rem; }
+.rapport-inference pre { overflow: auto; padding: 0.8rem; border-radius: 0.5rem; background: var(--fond-doux, var(--surface)); color: var(--texte); white-space: pre-wrap; font-size: 0.8rem; }
+.rapport-inference__pied { margin-top: 1rem; color: var(--texte-doux); font-size: 0.82rem; }
+
+@media (max-width: 800px) {
+  .rapport-inference { width: min(100% - 1rem, 650px); }
+  .rapport-inference__grille,
+  .rapport-inference__scenario-corps,
+  .rapport-inference__passages { grid-template-columns: 1fr; }
+}

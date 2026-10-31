@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+
+# Secrets
+.env
+
+# Base SQLite locale (Flask instance folder)
+instance/
+backend/instance/
+tmp/
+
+# Tests
+.coverage
+
+# Photos uploadées
+backend/uploads/
+backend/instance/rag/
+backend/maintenance_rag_chroma/
+
+# Frontend (Node / Vite)
+node_modules/
+dist/
+
+# Modèles d'IA entraînés localement (IA-ANNONCE-001)
+backend/modeles/
+
+# Données Kaggle (IA-ANNONCE-002-KAGGLE) : le classement contient des pseudonymes ; jamais commitées
+tunisian-house-prices-prediction*
+# IA-ANNONCE-PPT-001 : jeu de données Kaggle « Property Prices in Tunisia » (licence non vérifiée)
+Property Prices in Tunisia*.csv

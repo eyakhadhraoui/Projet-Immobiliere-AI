@@ -1,0 +1,128 @@
+{
+  "entraine_le": "2026-10-23T17:00:52+00:00",
+  "versions": {
+    "python": "3.14.6",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "joblib": "1.6.0"
+  },
+  "parametres": {
+    "part_test": 0.2,
+    "nb_plis": 5,
+    "nb_arbres": 200,
+    "graine": 2026,
+    "feuille_min": 2,
+    "cible": "log(prix)"
+  },
+  "variables": [
+    "type_bien",
+    "ville",
+    "surface",
+    "log_surface",
+    "nb_pieces",
+    "meuble",
+    "eq_parking",
+    "eq_climatisation",
+    "eq_ascenseur",
+    "eq_balcon",
+    "eq_jardin",
+    "eq_piscine",
+    "eq_chauffage",
+    "eq_internet"
+  ],
+  "transactions": {
+    "location": {
+      "modele_retenu": "LinearRegression",
+      "nb_annonces": 167,
+      "nb_entrainement": 133,
+      "nb_test": 34,
+      "scores_test": {
+        "baseline": {
+          "mae": 174.1,
+          "mape": 15.04,
+          "r2": 0.899
+        },
+        "LinearRegression": {
+          "mae": 150.03,
+          "mape": 13.87,
+          "r2": 0.942
+        },
+        "RandomForestRegressor": {
+          "mae": 177.9,
+          "mape": 20.51,
+          "r2": 0.934
+        }
+      },
+      "mape_validation_croisee": {
+        "LinearRegression": 14.2,
+        "RandomForestRegressor": 21.15
+      },
+      "villes": [
+        "Ariana",
+        "Ben Arous",
+        "Bizerte",
+        "Hammamet",
+        "La Marsa",
+        "Monastir",
+        "Nabeul",
+        "Sfax",
+        "Sousse",
+        "Tunis"
+      ]
+    },
+    "vente": {
+      "modele_retenu": "LinearRegression",
+      "nb_annonces": 133,
+      "nb_entrainement": 106,
+      "nb_test": 27,
+      "scores_test": {
+        "baseline": {
+          "mae": 80883.1,
+          "mape": 18.13,
+          "r2": 0.857
+        },
+        "LinearRegression": {
+          "mae": 62705.46,
+          "mape": 15.42,
+          "r2": 0.935
+        },
+        "RandomForestRegressor": {
+          "mae": 80002.58,
+          "mape": 22.0,
+          "r2": 0.894
+        }
+      },
+      "mape_validation_croisee": {
+        "LinearRegression": 11.78,
+        "RandomForestRegressor": 22.37
+      },
+      "villes": [
+        "Ariana",
+        "Ben Arous",
+        "Bizerte",
+        "Hammamet",
+        "La Marsa",
+        "Monastir",
+        "Nabeul",
+        "Sfax",
+        "Sousse",
+        "Tunis"
+      ]
+    }
+  },
+  "nettoyage": {
+    "bornes_prix_m2": {
+      "location": [
+        1.0,
+        100.0
+      ],
+      "vente": [
+        200.0,
+        20000.0
+      ]
+    },
+    "nb_exclues": 0,
+    "exclues": []
+  }
+}
